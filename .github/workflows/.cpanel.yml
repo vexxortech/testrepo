@@ -1,5 +1,6 @@
-  ---
+---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/biitsolutionsco/public_html/
-    - /bin/cp public.html $DEPLOYPATH
+    - export DEPLOYPATH=/home/biitsolutionsco/
+    - /bin/cp -R /home/biitsolutionsco/testrepo/public_html $DEPLOYPATH
+    - /bin/cp -R /home/biitsolutionsco/testrepo/lib $DEPLOYPATH
