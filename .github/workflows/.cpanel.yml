@@ -3,4 +3,3 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/biitsolutionsco/public_html/
     - /bin/cp public.html $DEPLOYPATH
-    - /bin/cp index.html $DEPLOYPATH
